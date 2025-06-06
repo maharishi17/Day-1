@@ -1,0 +1,49 @@
+body{
+    background-color: hsla(160, 100%, 72%, 0.526);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgg{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+
+.foot{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    color: hwb(0 0% 37%);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.know{
+    font-weight: bolder;
+    font-size: larger;
+    color: hwb(0 0% 37%);
+}
