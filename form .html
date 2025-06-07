@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        }
+
+        form{
+            border: 2px solid #712d2d;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input{
+            width: 300px;
+        }
+
+        .tes{
+            width: 30px;
+        }
+
+
+    label {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Form</h1>
+    <label>Name:</label>
+    <input type="text" placeholder="Enter The Name">
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter The Email">
+
+    <label>Password:</label>
+    <input type="password" placeholder="Enter The Password">
+
+    <label>Number:</label>
+    <input type="number" placeholder="Enter The Number">
+
+    <label>Date:</label>
+    <input type="date">
+
+    <label>Time:</label>
+    <input type="time">
+
+    <label>Select The File</label>
+    <input type="file">
+
+    <label>Gender:</label>
+    Male:<input class="tes" type="radio" name="gender" value="male">
+    Female:<input class="tes" type="radio" name="gender" value="female">
+
+    <label>Select Location</label>
+    <select>
+    <option>Coimbatore</option>
+    <option>Trichy</option>
+    <option>Chennai</option>
+    </select>
+
+        <label></label>
+        Accept terms and conditions<input class="tes" type="checkbox"> 
+    
+
+    <br>
+    <label style="color: blue;">Press Enter To Go Next Page</label>
+    <button type="submit">Enter</button>
+
+    </form>
+</body>
+</html>
